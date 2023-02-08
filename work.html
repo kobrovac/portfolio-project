@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Check out Karin's portfolio. Karin is a front-end developer based in Croatia.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
@@ -18,13 +19,13 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8a60610de3.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Karin's portfolio</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg nav-color sticky-top">
         <div class="container-fluid mt-2 mb-2 ms-5 me-5 text-end">
-            <a href="/"><img src="images/logo.png" alt="" class="me-5"></a>
+            <a href="/" title="Homepage"><img src="images/logo.png" alt="Karin Obrovac logo" class="me-5 logo-image"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,16 +34,16 @@
             <div class="collapse navbar-collapse " id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                        <a class="nav-link" href="/index.html" title="Homepage">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about.html">About</a>
+                        <a class="nav-link" href="/about.html" title="About me">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="/work.html">Work</a>
+                        <a class="nav-link" aria-current="page" href="/work.html" title="My work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
+                        <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -56,47 +57,52 @@
                    
                 
             <div class="row">
-              <div class="col-md-6 mb-4">
-                <img src="images/yogurt.png" class="img-fluid mb-3" alt="">
+              <div class="col-md-6 mb-4" id="yogurt">
+                <img src="images/yogurt.png" class="img-fluid mb-3" alt="Yogurt project">
                 <h3 class="text-center m-0">Yogurt project</h3>
                 <p class="text-center text-muted">Built with HTML and CSS</p>
               </div>  
-            <div class="col-md-6 mb-4">
-                <img src="images/weather.png" class="img-fluid mb-3" alt="">
+            <div class="col-md-6 mb-4" id="weather">
+                <img src="images/weather.png" class="img-fluid mb-3" alt="Weather app">
                 <h3 class="text-center m-0">Weather App</h3>
                 <p class="text-center text-muted">Built with HTML, CSS and JavaScript</p>
             </div>
-            <div class="col-md-6 mb-4">
-                <img src="images/dictionary.png" class="img-fluid mb-3" alt="">
+            <div class="col-md-6 mb-4" id="dictionary">
+                <img src="images/dictionary.png" class="img-fluid mb-3" alt="Dictionary app">
                 <h3 class="text-center m-0">Dictionary App</h3>
                 <p class="text-center text-muted">Built with HTML, CSS and React</p>
             </div>
             <div class="col-md-6 mb-4">
-                <img src="images/translate.png" class="img-fluid mb-3" alt="">
+                <img src="images/translate.png" class="img-fluid mb-3" alt="Translation app">
                 <h3 class="text-center m-0">Translation App</h3>
                 <p class="text-center text-muted">Built with HTML, CSS and React</p>
             </div>
             </div>
         </div>
-        <footer>
-            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-                <div>
-                    <h4>Work Inquiry</h4>
-                    <p class="text-muted">Let's work together</p>
-                </div>
-                <div>
-                    <a href="mailto:karin.obrovaac@gmail.com" class="btn btn-branding mt-3">Contact me</a>
-                </div>
+    <footer>
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h4>Work Inquiry</h4>
+                <p class="text-muted">Let's work together</p>
             </div>
-            <div class="d-flex justify-content-center mb-5">
-                <a href="mailto:karin.obrovaac@gmail.com" class="email-link">karin.obrovaac@gmail.com</a>
+            <div>
+                <a href="mailto:karin.obrovaac@gmail.com" class="btn btn-branding mt-3">Contact me</a>
             </div>
-            <div class="social-icons d-flex justify-content-center">
-                <a href="https://www.instagram.com/kobrovac"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/kobrovac"><i class="fa-brands fa-github"></i></a>
-                <a href="https://hr.linkedin.com/in/karin-obrovac-2a26b6250"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </footer>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:karin.obrovaac@gmail.com" class="email-link" title="Contact Karin">karin.obrovaac@gmail.com</a>
+        </div>
+        <div class="social-icons d-flex justify-content-center">
+            <a href="https://www.instagram.com/kobrovac" title="Instagram profile"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/kobrovac" title="GitHub profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://hr.linkedin.com/in/karin-obrovac-2a26b6250" title="LinkedIn Profile"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="text-center mt-5"> This project was coded by Karin, and it is <a
+                href="https://github.com/kobrovac/portfolio-project" target="_blank"
+                title="GitHub Portfolio Project">open-sourced</a></p>
+    </footer>
     </div>
 </body>
 

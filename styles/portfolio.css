@@ -30,7 +30,7 @@ p {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -54,6 +54,7 @@ p {
    font-size: 18px;
    line-height: 27px;
    padding: 15px 30px;
+   transition: all 150ms ease-in-out;
 }
 
 .btn-branding-outline{
@@ -63,6 +64,26 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+    background: var(--branding-color);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+       
 }
 
 .project-description {
@@ -70,7 +91,7 @@ p {
 }
 
 .content-container {
-    padding: 120px 60px;
+    padding: 60px 60px;
 }
 
 .content h1 {
@@ -112,6 +133,10 @@ nav a {
     text-decoration: none;
     color:#272142;
     transition: all 100ms ease-in-out;
+}
+
+nav .logo-image {
+    width: 150px;
 }
 
 footer {
@@ -183,9 +208,6 @@ nav a:hover, nav li.active a {
         font-size: 18px;
     }
 
-    .hero {
-        padding: 80px 20px;
-    }
     .project-description {
         padding: 0;
         text-align: center;
